@@ -4,6 +4,7 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 
+import com.barab.presenter.StudyCardPresenter;
 import com.barab.view.MainFrame;
 
 import javax.swing.JButton;
@@ -32,6 +33,7 @@ public class StudyCard {
 	 */
 	public StudyCard() {
 		MainFrame mainFrame = new MainFrame();
+		StudyCardPresenter studyCardPresenter = new StudyCardPresenter(mainFrame);
 	}
 
 }
